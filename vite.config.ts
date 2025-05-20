@@ -8,5 +8,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/mauriciotcg3',
+  base: '/mauriciotcg3/',
+  resolve: {
+    alias: {
+      '@': '/src', // Se você estiver usando alias de path
+    },
+  },
 })
