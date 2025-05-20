@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/mauriciotcg3.github.io',
+  base: '/mauriciotcg3',
 })
